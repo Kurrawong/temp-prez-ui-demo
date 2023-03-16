@@ -1,0 +1,6 @@
+1. run `npm run build`
+2. git add dist -f
+3. git commit -m "Adding dist"
+4. push changes to main
+5. delete `gh-pages` on remote
+6. git subtree push --prefix dist tempdemo gh-pages
